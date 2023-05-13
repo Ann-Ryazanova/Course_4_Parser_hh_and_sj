@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "course-4-parser-hh-and-sj"
+version = "0.1.0"
+description = ""
+authors = ["Ann-Ryazanova <zai97@mail.ru>"]
+readme = "README.md"
+packages = [{include = "course_4_parser_hh_and_sj"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.30.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
